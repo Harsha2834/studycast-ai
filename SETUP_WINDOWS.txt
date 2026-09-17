@@ -1,0 +1,15 @@
+1. Install Python 3.11+.
+2. Install FFmpeg and verify: ffmpeg -version
+3. Optional/recommended: install Ollama, then run: ollama run llama3.2:1b
+4. Backend terminal:
+   cd backend
+   py -m venv .venv
+   .venv\Scripts\Activate.ps1
+   pip install -r requirements.txt
+   uvicorn app.main:app --reload --port 8000
+5. Frontend second terminal:
+   cd frontend
+   npm.cmd install
+   npm.cmd run dev
+6. Open http://localhost:5173
+Use a small text-based PDF for the first test.
