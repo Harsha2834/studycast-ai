@@ -13,3 +13,4 @@
    npm.cmd run dev
 6. Open http://localhost:5173
 Use a small text-based PDF for the first test.
+.\venv\Scripts\python.exe -m uvicorn app.main:app --reload
